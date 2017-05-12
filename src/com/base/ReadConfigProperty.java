@@ -1,4 +1,4 @@
-package com.base.helpers;
+package com.base;
 
 import java.io.InputStream;
 import java.util.Properties;

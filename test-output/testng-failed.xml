@@ -12,7 +12,6 @@
         <methods>
           <include name="setUp"/>
           <include name="findElemnt"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.test.TestWebElement2 -->
     </classes>
