@@ -1,22 +1,23 @@
 package com.base.helpers;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+
 public class ReadConfigProperty {
-	
+
 	protected InputStream input = null;
 	protected Properties prop = null;
 	
-	
-	public ReadConfigProperty() {
+	public ReadConfigProperty(){
 		try {
-			input = ReadConfigProperty.class.getResourceAsStream("resources/config.properties");
+			System.out.println("assssssssssssssssssssssssssssssssssssssssssssssssss");
+
+			input = ReadConfigProperty.class.getClassLoader().getResourceAsStream("resource/config.properties");
+			System.out.println(input);
 			prop = new Properties();
 			prop.load(input);
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -24,33 +25,30 @@ public class ReadConfigProperty {
 	public String getUrl(){
 		if (prop.getProperty("url") == null)
 			return "";
+		System.err.println("URL: "+prop.getProperty("url"));
 		return prop.getProperty("url");
 	}
 	
 	public String getBrowser(){
 		if (prop.getProperty("browser") == null)
 			return "";
+		System.err.println("Browser: "+prop.getProperty("browser"));
 		return prop.getProperty("browser");
 	}
 	
 	public String getUsername(){
-		if (prop.getProperty("username") == null)
+		if (prop.getProperty("Username") == null)
 			return "";
-		return prop.getProperty("username");
+		System.err.println("Username: "+prop.getProperty("Username"));
+		return prop.getProperty("Username");
 	}
 	
 	public String getPassword(){
-		if (prop.getProperty("password") == null)
+		if (prop.getProperty("Password") == null)
 			return "";
-		return prop.getProperty("password");
+		System.err.println("Password: "+prop.getProperty("Password"));
+		return prop.getProperty("Password");
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
