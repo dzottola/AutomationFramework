@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1059" started-at="2017-05-12T10:17:47Z" finished-at="2017-05-12T10:17:48Z">
+  <suite name="Default suite" duration-ms="1065" started-at="2017-05-12T10:29:09Z" finished-at="2017-05-12T10:29:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1059" started-at="2017-05-12T10:17:47Z" finished-at="2017-05-12T10:17:48Z">
+    <test name="Default test" duration-ms="1065" started-at="2017-05-12T10:29:09Z" finished-at="2017-05-12T10:29:10Z">
       <class name="com.test.TestWebElement2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="setUp" is-config="true" duration-ms="10701" started-at="2017-05-12T07:17:36Z" finished-at="2017-05-12T07:17:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="setUp" is-config="true" duration-ms="8219" started-at="2017-05-12T07:29:00Z" finished-at="2017-05-12T07:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="findElemnt()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="findElemnt" duration-ms="1027" started-at="2017-05-12T07:17:47Z" finished-at="2017-05-12T07:17:48Z">
+        <test-method status="FAIL" signature="findElemnt()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="findElemnt" duration-ms="1026" started-at="2017-05-12T07:29:09Z" finished-at="2017-05-12T07:29:10Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
@@ -19,7 +19,7 @@ Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b015
 System info: host: 'MADNESS', ip: '169.254.13.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
 Driver info: driver.version: RemoteWebDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6892f603-06ec-415a-8566-c00eb9e7b2ad]]>
+Session ID: 02109d4d-1884-4e11-9984-254644acb0ca]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
@@ -27,7 +27,7 @@ Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b015
 System info: host: 'MADNESS', ip: '169.254.13.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
 Driver info: driver.version: RemoteWebDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6892f603-06ec-415a-8566-c00eb9e7b2ad
+Session ID: 02109d4d-1884-4e11-9984-254644acb0ca
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
@@ -94,7 +94,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findElemnt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="tearDown" is-config="true" duration-ms="1014" started-at="2017-05-12T07:17:48Z" finished-at="2017-05-12T07:17:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestWebElement2@523884b2]" name="tearDown" is-config="true" duration-ms="1028" started-at="2017-05-12T07:29:10Z" finished-at="2017-05-12T07:29:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -13,7 +13,7 @@ public class ReadConfigProperty {
 		try {
 			System.out.println("assssssssssssssssssssssssssssssssssssssssssssssssss");
 
-			input = ReadConfigProperty.class.getClassLoader().getResourceAsStream("resource/config.properties");
+			input = ReadConfigProperty.class.getClassLoader().getResourceAsStream("com/resource/config.properties");
 			System.out.println(input);
 			prop = new Properties();
 			prop.load(input);
